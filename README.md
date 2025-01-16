@@ -43,11 +43,11 @@ and here’s what people say about me...
 SKILLS
 ----------------------------------------------------------------
 
-Web Development
-Web Design
-Content Management
-Social Media Management
-Personal Assistant
-Digital Marketing Tool
-Email Marketing
-Customer Support
+- Web Development
+- Web Design
+- Content Management
+- Social Media Management
+- Personal Assistant
+- Digital Marketing Tool
+- Email Marketing
+- Customer Support
