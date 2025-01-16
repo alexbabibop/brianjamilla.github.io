@@ -39,3 +39,15 @@ and here’s what people say about me...
 
 “You don’t ever wanna quit until you find out what you’re looking for”
 
+----------------------------------------------------------------
+SKILLS
+----------------------------------------------------------------
+
+Web Development
+Web Design
+Content Management
+Social Media Management
+Personal Assistant
+Digital Marketing Tool
+Email Marketing
+Customer Support
