@@ -1,8 +1,12 @@
+----------------------------------------------------------------
 Brian's Portfolio
+----------------------------------------------------------------
 
 “I help busy small and medium business owners in their online task in order for them to focus on their matters”
 
+----------------------------------------------------------------
 Hey I’m Brian... and the first thing you should know about me is...
+----------------------------------------------------------------
 
 I may not be you average guy that can give you advice regarding business strategies,
 how you will make your business earnings go boom in just one week or less,
