@@ -1,6 +1,8 @@
 <<<<<<< HEAD
 # Brian's Portfolio
 
+“I help busy small and medium business owners in their online task in order for them to focus on their matters”
+
 Hey I’m Brian... and the first thing you should know about me is...
 
 I may not be you average guy that can give you advice regarding business strategies,
@@ -19,3 +21,13 @@ We’ll surely figure it out... right? But I let me tell you this, I’m profess
 - Managed TikTok, Instagram, and Facebook accounts (video editing, captions, and descriptions)
 - Designed lead magnets (promotions and campaigns)
 - Gathered data to support business strategies and decision-making
+  
+----------------------------------------------------------------
+and here’s what people say about me...
+
+“You’re just simply strategic and exceptional!”
+
+“Made something simple but better”
+
+“You don’t ever wanna quit until you find out what you’re looking for”
+
