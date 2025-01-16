@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# Brian's Portfolio
+Brian's Portfolio
 
 “I help busy small and medium business owners in their online task in order for them to focus on their matters”
 
