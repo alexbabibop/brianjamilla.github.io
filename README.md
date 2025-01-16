@@ -11,6 +11,10 @@ We’ll surely figure it out... right? But I let me tell you this, I’m profess
 
 ![preview img](/preview.png)
 
+----------------------------------------------------------------
+Here are some tasks I’m capable of doing for you...
+----------------------------------------------------------------
+
 - Create and design websites (Wix, Shofipy, Hostinger, etc.)
 - Created social media visuals (campaigns, posters, daily promotions)
 - Managed email campaigns
