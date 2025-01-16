@@ -27,6 +27,7 @@ Here are some tasks I’m capable of doing for you...
   
 ----------------------------------------------------------------
 and here’s what people say about me...
+----------------------------------------------------------------
 
 “You’re just simply strategic and exceptional!”
 
