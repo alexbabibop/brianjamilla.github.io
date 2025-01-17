@@ -34,6 +34,8 @@
   }
 }
 
+
+
 /*===== BASE =====*/
 *, ::before, ::after {
   box-sizing: border-box;
@@ -211,7 +213,7 @@ img {
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 260px;
+  width: 200px;
 }
 .home__blob {
   fill: var(--first-color);
@@ -484,3 +486,4 @@ img {
     width: 450px;
   }
 }
+

@@ -39,8 +39,7 @@
             <!--===== HOME =====-->
             <section class="home bd-grid" id="home">
                 <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Brian</span><br> Web Designer</h1>
-
+					<h2 class="home__title">Hi,<br>I'm <span class="home__title-color">Brian</span> <br> AutoCAD Operator <br>Personal Assistant<br>Web Developer</h2>
                     <a href="https://calendly.com/jamiestun/30min" class="button">Schedule a Discovery Call!</a>
                 </div>
 
@@ -73,7 +72,7 @@
                     </div>
                     
                     <div>
-                        <h2 class="about__subtitle">I'am Brian</h2>
+                        <h2 class="about__subtitle">I'm Brian</h2>
 						
 						<p style="margin-bottom: 20px;"><em>“I help busy small and medium business owners in their online task in order for them to focus on their matters”</em></p>
 
@@ -93,87 +92,214 @@ I may not be you average guy that can give you advice regarding business strateg
                     <div>
                         <h2 class="skills__subtitle">Profesional Skills</h2>
                         <p style="margin-bottom: 20px;">Here are some tasks I’m capable of doing for you...</p>
+						<!--===== Start  here  =====-->
                         <div class="skills__data">
                             
-                                <i class='bx bxl-html5 skills__icon'></i>
+                               
                                 <span class="skills__name">Create and design websites (Wix, Shofipy, Hostinger, etc.)</span>
                             
                         </div>
+						
+						<!--===== End here for skill set =====-->
                         <div class="skills__data">
                             
-                                <i class='bx bxl-html5 skills__icon'></i>
+                               
                                 <span class="skills__name">Created social media visuals (campaigns, posters, daily promotions)</span>
                             
                         </div>
                         <div class="skills__data">
                             
-                                <i class='bx bxl-html5 skills__icon'></i>
+                                
                                 <span class="skills__name">Built engagement and trust through social media platforms</span>
                             
                         </div>
                         <div class="skills__data">
                             
-                                <i class='bx bxl-html5 skills__icon'></i>
+                                
                                 <span class="skills__name">Improved customer relations through support and inquiries</span>
                             
                         </div>
+						<div class="skills__data">
+                            
+                                
+                                <span class="skills__name">Designed lead magnets (promotions and campaigns)</span>
+                            
+                        </div>
+						<div class="skills__data">
+                            
+                                
+                                <span class="skills__name">Managed TikTok, Instagram, and Facebook accounts (video editing, captions, and descriptions)</span>
+                            
+                        </div>
+						<div class="skills__data">
+                            
+                               
+                                <span class="skills__name">Gathered data to support business strategies and decision-making</span>
+                            
+                        </div>
+						
                     </div>
                     
                     <div>              
-                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                        <img src="assets/img/work.jpg" alt="" class="skills__img">
                     </div>
                 </div>
             </section>
 
             <!--===== WORK =====-->
             <section class="work section" id="work">
-                <h2 class="section-title">Work</h2>
+    <h2 class="section-title">Work Samples</h2>
 
-                <div class="work__container bd-grid">
-                    <a href="" class="work__img">
-                        <img src="assets/img/work1.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work2.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work3.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work4.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work5.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work6.jpg" alt="">
-                    </a>
-                </div>
-            </section>
-
-            <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
-
-                <div class="contact__container bd-grid">
-    <form action="" class="contact__form">
-        <input type="text" placeholder="Name" class="contact__input">
-        <input type="mail" placeholder="Email" class="contact__input">
-        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-        <a href="https://calendly.com/jamiestun/30min" target="_blank" class="contact__button button">Schedule a Discovery Call</a>
-    </form>
+   <div class="work__container bd-grid">
+    <a href="javascript:void(0)" class="work__img" onclick="viewImage('assets/img/work1.png')">
+        <img src="assets/img/work1.png" alt="" class="work__img-thumbnail">
+    </a>
+    <a href="javascript:void(0)" class="work__img" onclick="viewImage('assets/img/work2.png')">
+        <img src="assets/img/work2.png" alt="" class="work__img-thumbnail">
+    </a>
+    <a href="javascript:void(0)" class="work__img" onclick="viewImage('assets/img/work3.png')">
+        <img src="assets/img/work3.png" alt="" class="work__img-thumbnail">
+    </a>
+    <a href="javascript:void(0)" class="work__img" onclick="viewImage('assets/img/work4.png')">
+        <img src="assets/img/work4.png" alt="" class="work__img-thumbnail">
+    </a>
+    <a href="javascript:void(0)" class="work__img" onclick="viewImage('assets/img/work5.png')">
+        <img src="assets/img/work5.png" alt="" class="work__img-thumbnail">
+    </a>
+    <a href="javascript:void(0)" class="work__img" onclick="viewImage('assets/img/work6.png')">
+        <img src="assets/img/work6.png" alt="" class="work__img-thumbnail">
+    </a>
 </div>
 
-            </section>
+<!-- Modal for viewing images -->
+<div id="imageModal" class="modal" onclick="closeModal(event)">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img id="modalImage" src="" alt="" class="modal-content">
+</div>
+
+<!-- Add styles for the modal -->
+<style>
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        align-items: center;
+        justify-content: center;
+    }
+
+    .modal-content {
+        max-width: 80%;
+        max-height: 80%;
+        margin: auto;
+    }
+
+    .close {
+        position: absolute;
+        top: 15px;
+        right: 25px;
+        color: #fff;
+        font-size: 30px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+    }
+</style>
+
+<script>
+    function viewImage(imageSrc) {
+        var modal = document.getElementById("imageModal");
+        var modalImage = document.getElementById("modalImage");
+        modal.style.display = "flex";
+        modalImage.src = imageSrc;
+    }
+
+    function closeModal(event) {
+        var modal = document.getElementById("imageModal");
+        // Close the modal only if the user clicks outside the image or presses 'Esc'
+        if (event.target === modal || event.key === "Escape") {
+            modal.style.display = "none";
+        }
+    }
+
+    // Close the modal when the "Esc" key is pressed
+    window.addEventListener("keydown", function(event) {
+        if (event.key === "Escape") {
+            closeModal(event);
+        }
+    });
+</script>
+
+
+
+</section>
+
+
+            <!--===== CONTACT =====-->
+			
+          <section class="contact section" id="contact">
+    <h2 class="section-title">Contact</h2>
+	 <h1 style="text-align: center;">Need something done? Send me the details, and we’ll take care of it!</h1>
+    <div class="contact__container bd-grid">
+        <form id="contact-form" class="contact__form">
+            <input type="text" placeholder="Name" class="contact__input" id="user-name" required>
+            <input type="email" placeholder="Email" class="contact__input" id="user-email" required>
+            <textarea placeholder="Message" id="user-message" cols="0" rows="10" class="contact__input" required></textarea>
+            <button type="submit" class="contact__button button">Send Email</button>
+        </form>
+    </div>
+</section>
+
+<script>
+    document.getElementById('contact-form').addEventListener('submit', function (e) {
+        e.preventDefault(); // Prevent the form from reloading the page
+
+        // Get form values
+        const name = document.getElementById('user-name').value;
+        const email = document.getElementById('user-email').value;
+        const message = document.getElementById('user-message').value;
+
+        // Ensure all fields are filled
+        if (!name || !email || !message) {
+            alert('Please fill in all fields before sending.');
+            return;
+        }
+
+        // Construct the subject and body for Gmail
+        const subject = `Message from ${name} regarding an Appointment`;
+        const body = `${message}`;
+
+        // Construct the Gmail compose URL
+        const gmailLink = `https://mail.google.com/mail/?view=cm&fs=1&to=jamiestun@gmail.com,brian.jamilla13@gmail.com&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+        // Open the Gmail compose link in a new tab
+        window.open(gmailLink, '_blank');
+    });
+</script>
+
+
+
+	
+
         </main>
 
         <!--===== FOOTER =====-->
         <footer class="footer">
             <p class="footer__title">Brian Jamilla's Portfolio</p>
             <div class="footer__social">
-                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+				<a href="https://www.linkedin.com/in/brian-jamilla" class="footer__icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.facebook.com/brjquella18" class="footer__icon" class='bx bxl-behance'><i class='bx bxl-facebook'></i></a>
+                <a href="https://github.com/alexbabibop" class="footer__icon"><i class='bx bxl-github' ></i></a>
             </div>
             <p class="footer__copy">&#169; All rights reserved | 2025</p>
         </footer>
